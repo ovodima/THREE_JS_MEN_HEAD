@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Karla:ital,wght@1,200&family=Lato&family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body, html {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.webgl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+main {
+    z-index: 2;
+}
+
+nav {
+    color: white;
+    z-index: 3;
+    position: relative;
+    padding: 4rem 8rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav h3 {
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+.tittle {
+    color: white;
+    z-index: 3;
+    position: absolute;
+    font-size: 2rem;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -90%);
+}
+
+div p {
+    top: 0;
+    left: 0;
+    color: white;
+}
+
